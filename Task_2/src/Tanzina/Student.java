@@ -5,19 +5,19 @@ public class Student {
     int id;
     static String universityName = "Leading University";
 
-    Student() {
+    public Student() {
         System.out.println("default constructor");
     }
 
-    Student(int id) {
+    public Student(int id) {
         this.id = id;
-        System.out.println("parameterized constructor");
+        System.out.println("one parameterized constructor");
     }
 
     public Student(String name, int id) {
         this.name = name;
         this.id = id;
-        System.out.println("parameterized constructor");
+        System.out.println("Two parameterized constructor");
     }
 
     void display() {
